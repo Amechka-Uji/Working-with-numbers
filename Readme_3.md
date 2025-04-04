@@ -1,0 +1,12 @@
+start
+? Пример вычисления с использованием трёх переменных
+new a number
+new b number
+new c number
+
+set a 2
+set b 2
+set c a + b
+
+log string a >> " + " >> b >> " = " >> c
+finish
